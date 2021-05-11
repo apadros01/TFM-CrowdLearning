@@ -1,14 +1,14 @@
 data{
-	int<lower=0> n; //numero d'imatges
-	int<lower=1> k; //numero de possibles anotacions
-  int<lower=0> x[n,k]; 
+  int<lower=0> n; //number of tasks
+	int<lower=1> k; //number of classes
+  int<lower=0> x[n,k]; //matrix of annotations
   vector[k] prior_p;
   vector[k] prior_pi;
 }
 
 parameters{
 	simplex[k] p;
-  simplex[k] pi[k]; //crec que amb això tinc la matriu transposta
+  simplex[k] pi[k]; 
 
 }
 
