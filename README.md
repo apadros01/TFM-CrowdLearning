@@ -1,4 +1,5 @@
-# TFM-CrowdLearning
+# Master on Fundamentals of Data Science: Final Project
+## Facing the Label-Switching problem when using generic inference platforms for crowd annotation models
 
 Àlex Padrós Zamora
 
